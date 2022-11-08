@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safty</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="shortcut icon" href="./src/img/icons8-fire-station-48.png" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-white-100">
+    <nav class="fixed top-0 left-0 bg-white w-full shadow">
+        <div class="container m-auto flex justify-between items-center text-gray-700">
+            <h1 class="pl-6 py-4 text-x1 font-bold">Fire Service</h1>
+            <ul class="hidden md:flex item-center pr-10 text-base font-semibold cursor-pionter">
+                <li class="hover:bg-gray-200 hover:rounded py-4 px-6"> <a href="#">Home</a></li>
+                <li class="hover:bg-gray-200 hover:rounded py-4 px-6"> <a href="#">Courses</a></li>
+                <li class="hover:bg-gray-200 hover:rounded py-4 px-6"> <a href="#">Tell Us</a></li>
+                <li class="hover:bg-gray-200 hover:rounded py-4 px-6"> <a href="#">Trainning</a></li>
+                <li class="hover:bg-gray-200 hover:rounded py-4 px-6 mx-1"> <a href="#">Store</a></li>
+                <button class="bg-red-700 text-white py-2 px-3 rounded hover:bg-red-800">Contact Us</button>
+            </ul>
+            <button class="block md:hidden py-3 px-4 mx-2 rounded focus:outline-none hover:bg-gray-200 group ">
+                <ion-icon name="menu-outline"></ion-icon>
+                <div class="nav absolute top-0 -right-full h-screen w-8/12 bg-white border opacity-0
+                group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
+                    <ul class="flex flex-col items-center w-full text-base cursor-pointer pt-10">
+                        <li class="hover:bg-gray-200 py-4 px-6 w-full"><a href="#">Home</a></li>
+                        <li class="hover:bg-gray-200 py-4 px-6 w-full"><a href="#">Courses</a></li>
+                        <li class="hover:bg-gray-200 py-4 px-6 w-full"><a href="#">Tell Us</a></li>
+                        <li class="hover:bg-gray-200 py-4 px-6 w-full"><a href="#">Trainning</a></li>
+                        <li class="hover:bg-gray-200 py-4 px-6 w-full"><a href="#">Store</a></li>
+                        <li class="bg-cyan-400 py-2 px-3 rounded hover:bg-cyan-500">Contact Us</li>
+                    </ul>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- .....here where we have our display img and a short note on what we do below the img ........ -->
+    <section class="">
+        <div class="">
+            <img class="h-96 w-full" src="./src/img/daniel-tausis-loeqHoa1uWY-unsplash.jpg" alt="Saftydrill">
+            <div class="bg-gray-200">
+                <h1 class="py-4  w-4/5 text-sm m-auto text-center">Africa fire service Resources aim to provide Fire and
+                    Rescue Service relatedinformation and an online community where members of the Africa fire and
+                    Rescue
+                    service and member of the public can find all theinformation they require.
+                </h1>
+            </div>
+        </div>
+    </section>
+    <!-- ........Here below the first image where we have our three main  content of the site........ -->
+    <section class="container m-auto">
+        <div class=" px-6 mt-14 mb-8 md:flex md:justify-between text-center md:gap-x-6">
+            <div class="px-8 bg-gray-200 rounded text-sm my-8 pb-3">
+                <i class="fas fa-phone p-2 bg-yellow-500 my-4 rounded-full border border-black "></i>
+                <p class="font-semibold text-2xl pb-4">
+                    Your Local fire Service
+                </p>
+                <p class="text-gray-500">
+                    Need to contact your local fire and Rescue Service?
+                    Our contact page will give you all the details you require.
+                </p>
+                <p class="my-5 font-semibold text-red-500"><a href="#">Contact List</a></p>
+            </div>
+            <div class=" bg-gray-300 rounded px-8 text-sm pb-4">
+                <i class="fa fa-pencil p-2 bg-red-600 rounded-full my-4 border border-black md:mt-6"
+                    aria-hidden="true"></i>
+                <p class="font-semibold text-2xl pb-4 md:mt-6">
+                    Fire and Rescue Ribbon Bars
+                </p>
+                <p class="text-gray-500 md:mt-4">
+                    Want to become a firefighter and work within the
+                    Africa Fire and Rescue service? Everything you need is here.
+                </p>
+                <p class="my-5 font-semibold text-red-500 md:mt-"><a href="#">Firefighter Recruitment</a></p>
+            </div>
+            <div class=" bg-gray-200 rounded my-8 px-8 text-sm pb-4">
+                <i class="fas fa-medal fa fa-pencil p-2 bg-blue-600 rounded-full my-4 border border-black"></i>
+                <p class="font-semibold text-2xl pb-4">
+                    Fire and Rescue Ribbon Bars
+                </p>
+                <p class="text-gray-500">Want to become a firefighter and work within the
+                    Africa Fire and Rescue service? Everything you need is here.
+                </p>
+                <p class="my-5 font-semibold text-red-500"><a href="#">Purchase Ribbon Bars</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- ........what our comapny is all about......... -->
+    <section class="container m-auto mb-10 ">
+        <div class="px-6 md:flex md:gap-x-8">
+            <div class="bg-gray-200 border-l-4 border-red-700 rounded-l text-left px-8 my-6">
+                <h2 class="font-semibold text-2xl mt-6"> Fire Safety in the Home</h2>
+                <p class="text-gray-600 text-sm my-2">Are you a tenant or you own a house looking for some
+                    fire safety advice? if so, we can help provide that advice.
+                </p>
+                <button class="w-full text-left pl-12 h-10 my-6 bg-red-800 text-white text-sm"><a href="#">GET
+                        ADVICE</a></button>
+            </div>
+            <div class="bg-gray-200 border-t-4 border-red-700 rounded-t text-left px-8 my-6">
+                <h2 class="font-semibold text-2xl mt-6">Fire Safety in your Worksapce</h2>
+                <p class="text-gray-600 text-sm my-2">
+                    Looking to get your Company and Employee the best experience on fire saftey?
+                    if so, we can provide that experience
+                </p>
+                <button class="w-full text-left pl-12 h-10  my-6 bg-red-800 text-white text-sm"><a href="#">GET THE
+                        EXPERIENCE</a></button>
+            </div>
+            <div class="bg-gray-200 border-r-4 border-red-700 rounded-r  text-left px-8 my-6 lg:w-3/5">
+                <h1 class="font-semibold text-2xl mt-6">OTD Africa Ltd</h1>
+                <p class="text-gray-600  text-sm my-2">
+                    Africa Fire Service Resources only recommmend OTD Africa for all your Fire Safety products and
+                    service.
+                </p>
+                <button class="w-full text-left pl-12 h-10  my-6 bg-red-800 text-white text-sm"><a href="#">SHOP
+                        NOW</a></button>
+            </div>
+        </div>
+        <div class="px-6 mt-8">
+            <div class="bg-gray-100 px-8 md:flex md:justify-between py-4">
+                <div>
+                    <h2 class="text-2xl font-semibol py-2">Thought Leadership</h2>
+                    <p class="py-2 text-sm text-gray-700">Share your experience with us and with others, through our
+                        platform </p>
+                </div>
+                <div class="md:pt-6 md:pb-2  py-2 text-white">
+                    <button class="bg-red-800 px-8 h-10 text-w"><a href="#">Tell us</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ........here we have our audience....... -->
+
+    <section class="container m-auto my-10">
+        <div class="px-6">
+            <div class="text-center my-16">
+                <h1 class=" text-5xl font-bold ">Our Audience by the Numbers</h1>
+            </div>
+            <div class="md:flex md:gap-x-0">
+                <div class="border-x-2 md:border-r-0  border-black text-center mt-6 h-86">
+                    <img src="./src/img/audience/File_alt_font_awesome.svg.png" alt="png img" class="w-2/5 m-auto pt-10">
+                    <p class="text-white text-5xl mt-8 you">83.4k+</p>
+                    <p class="mt-4 text-1xl font-semibold text-gray-600">Print Subscribers</p>
+                </div>
+                <div class="border-x-2 md:border-r-0 border-black text-center mt-6 h-86">
+                    <img src="./src/img/audience/computer-png.webp" alt="png img" class="w-2/5 m-auto pt-10">
+                    <p class="text-red-700 text-5xl mt-8 you">1.6M+</p>
+                    <p class="mt-4 text-1xl font-semibold text-gray-600">Avg. Monthly Page Views</p>
+                </div>
+                <div class="border-x-2 md:border-r-0  border-black text-center mt-6 h-86">
+                    <img src="./src/img/audience/2583040.png" alt="png img" class="w-2/5 m-auto pt-10">
+                    <p class="text-red-700 text-5xl mt-8 you">356k+</p>
+                    <p class="mt-4 text-1xl font-semibold text-gray-600">Newsletter Circulation</p>
+                </div>
+                <div class="border-x-2  border-black text-center mt-6 h-86">
+                    <img src="./src/img/audience/chat.png" alt="png img" class="w-2/5 m-auto pt-10">
+                    <p class="text-red-700 text-5xl mt-8 you">1.7M+</p>
+                    <p class="mt-4 text-1xl font-semibold text-gray-600">Social followers</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- .......here are the list of our partnered companies........ -->
+    <section class="hidden md:block container m-auto mt-16">
+        <div class="px-6">
+            <marquee behavior="" direction="">
+                <div class="flex w-20 gap-x-20">
+                    <img src="./src/img/companies/yellow fire.png" alt="companies logo">
+                    <img src="./src/img/companies/images.png" alt="companies logo">
+                    <img src="./src/img/companies/images (2).png" alt="companies logo">
+                    <img src="./src/img/companies/images (1).png" alt="companies logo">
+                </div>
+        </div>
+
+        </marquee>
+    </section> 
+    <!-- .....contact us........ -->
+
+    <section class=" bg-slate-800 mt-14">
+        <div class="container m-auto px-6">
+            <div class="md:flex py-10 md:justify-between">
+                <div class="text-white">
+                    <h1 class="pb-4 text-7xl font-bold">Get in Touch</h1>
+                    <p class="font-semibold text-1xl py-6">Contact us with any questions...</p>
+                </div>
+                <div class="md:pt-6 md:pb-2  md:mt-10 text-white">
+                    <button class="border-2 border-teal-500 p-2 text-2xl"><a href="#">Contact Us</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ......HERE WE HAVE THE FOOTER.... -->
+
+    <footer class="bg-gray-600 h-4/5">
+        <div class="container m-auto">
+            <div class="px-6 text-white md:flex md:justify-between py-10 md:gap-x-6">
+                <div class="w-4/5 mt-4">
+                    <h2 class="py-4 font-bold">Site sponsorship</h2>
+                    <p class="text-sm">Advertise Your Site With Us Support The Site Financially FRS Develpoment Product OTD Africa
+                        Safety Products
+                    </p>
+                </div>
+                <div class="w-4/5 mt-4">
+                    <h2 class="py-4 font-bold">Important information</h2>
+                    <p class="text-sm">Advertise Your Site With Us Support The Site Financially FRS Develpoment Product OTD Africa
+                        Safety Products
+                    </p>
+                </div>
+                <div class="w-4/5 mt-4">
+                    <h2 class="py-4 font-bold">Additonal Resources</h2>
+                    <p class="text-sm">Advertise Your Site With Us Support The Site Financially FRS Develpoment Product OTD Africa
+                        Safety Products
+                    </p>
+                </div>
+                <div class="w-4/5 mt-4">
+                    <h2 class="pt-4 pb-6 font-bold">Social Network</h2>
+                    <div class="flex">
+                        <img src="./src/img/icon/icon-twitter.svg" alt="twitter icon" class="bg-blue-500 rounded p-2 mr-2 ">
+                        <img src="./src/img/icon/icon-facebook.svg" alt="facebook icon"class="bg-blue-700 rounded p-2 mr-2 " >
+                        <img src="./src/img/icon/icon-instagram.svg" alt="instagram icon" class="bg-blue-800 rounded p-2 mr-2">
+                        <img src="./src/img/icon/icon-youtube.svg" alt="youtube icon" class="bg-red-600 rounded p-2 mr-2 ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
